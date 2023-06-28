@@ -1,5 +1,11 @@
 const gameBoard = document.querySelector('#gameboard');
 const infoDisplay = document.querySelector('#info');
+const startCells = [
+  "", "", "", "", "", "", "", "", "",
+]
 
-// test 1212
-
+function createBoard() {
+  startCells.forEach((cell, index) => {
+    const cellElement = document.createElement('div');
+  })
+}
